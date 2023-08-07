@@ -31,6 +31,24 @@ else {
 // output
 // B
 
+
+// ## Fizz Buzz:
+
+let numb1 = 390
+
+if(numb1 % 3 == 0 && numb1 % 5 == 0){
+    console.log('fizzbuzz')
+}else if (numb1 % 5 == 0){
+    console.log('buzz')
+}else if (numb1 % 3 == 0) {
+    console.log('fizz');  
+}else{
+    console.log(numb1)
+}
+// output
+// fizzbuzz
+
+
 let prime = 23
 let i =2
 if (prime % i == 0) {
@@ -51,7 +69,7 @@ for (let i = 1; i <= 10; i++) {
 // for (let i = 5; i >= 0; i--) {
 //     for(let j = i; j > 3; j--){
 //         console.log(j, i);
-//     }
+// }
 
 // output
 // 1
